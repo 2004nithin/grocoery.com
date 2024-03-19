@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grocery Website</title>
+    <link rel="icon" type="image/avif" href="icon1.avif"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+<header class="header">
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Groco </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#categories">categories</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="watermelon.jpg" alt="">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">50Rs/- </span>
+                    <span class="quantiy">qty:1kg</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="onion.jpg" alt="">
+                <div class="content">
+                    <h3>onion</h3>
+                    <span class="price">50Rs/- </span>
+                    <span class="quantiy">qty:1kg</span>
+                </div>
+            </div>
+            <div class="total">total:100Rs/-</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh and <span>organic</span> products for you</h3>
+            <p>Discover a world of fresh, local goodness at Groco. Groco provide you best quality products to your home for free delivery</p>
+            <a href="#products" class="btn">shop now</a>
+        </div>
+    </section>
+    <section class="features" id="features">
+        <h1 class="heading">our <span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="delivery4.png" alt="">
+                <h3>free delivery</h3>
+                <p>Delivery within 30mins</p>
+            </div>
+            <div class="box">
+                <img src="payment.png" alt="">
+                <h3>easy payments</h3>
+                <p>payment can be made via debitcard/creditcard/upi</p>
+                <img src="image1.png" class="payment-img" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="categories" id="categories">
+        <h1 class="heading"> product <span>categories</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="vegetables.png" alt="">
+                <h3>Vegitables</h3>
+                <p>upto 30% off</p>
+                <a href="#products" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="fruits.png" alt="">
+                <h3>Fresh fruits</h3>
+                <p>upto 27% off</p>
+                <a href="#products" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="dairy products.png" alt="">
+                <h3>Dairy products</h3>
+                <p>upto 25% off</p>
+                <a href="#products" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="meat.png" alt="">
+                <h3>Fresh meat</h3>
+                <p>upto 20% off</p>
+                <a href="#products" class="btn">shop now</a>
+            </div>
+        </div>
+    </section>
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span> </h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class=" swiper-slide box">
+                    <img src="oranges.jpg" alt="">
+                    <h3> Orange</h3>
+                    <div class="price"> 1kg-90Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="apples.jpg" alt="">
+                    <h3> Apples</h3>
+                    <div class="price"> 1kg-225Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="grapes.jpg" alt="">
+                        <h3> Grapes</h3>
+                        <div class="price"> 1kg-120Rs/-</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            </div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                <div class="swiper-slide box">
+                    <img src="onion.jpg" alt="">
+                    <h3> Onions</h3>
+                    <div class="price"> 1kg-50Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                <div class="swiper-slide box">
+                    <img src="watermelon.jpg" alt="">
+                    <h3> Watermelon</h3>
+                    <div class="price"> 1kg-50Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="tomato1.jpg" alt="">
+                    <h3> Tomato</h3>
+                    <div class="price"> 1kg-30Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="oreo.jpg" alt="">
+                    <h3> oreo</h3>
+                    <div class="price"> 1pac-10Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="maggi.jpg" alt="">
+                    <h3> Maggic</h3>
+                    <div class="price"> 1pac-12Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="oil.jpg" alt="">
+                    <h3> Oil</h3>
+                    <div class="price"> 1ltr-110Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="meat.png" alt="">
+                    <h3> chicken</h3>
+                    <div class="price"> 1kg-150Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="mutton.png" alt="">
+                    <h3> Mutton</h3>
+                    <div class="price"> 1kg-750Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="cococola.webp" alt="">
+                    <h3> Coca cola</h3>
+                    <div class="price"> 750ml-30Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="pepsi.jpg" alt="">
+                    <h3> Pepsi</h3>
+                    <div class="price"> 750ml-25Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="redlabel.png" alt="">
+                    <h3> Tea powder</h3>
+                    <div class="price"> 250g-149Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="milk.webp" alt="">
+                    <h3> Milk</h3>
+                    <div class="price"> 1ltr-60Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="cheese.jpg" alt="">
+                    <h3> Cheese</h3>
+                    <div class="price"> 200g-125Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="sugar.jpg" alt="">
+                    <h3> Sugar</h3>
+                    <div class="price"> 1kg-52Rs/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#box" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review" id="review">
+        <h1 class="heading"> customer's <span>review</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="nithinreview.jpg" alt="">
+                <h3>nithin</h3>
+                <p>Absolutely thrilled with my recent order from Groco! The farm-fresh produce exceeded my expectations, and the user-friendly website made the whole experience a breeze. My go-to for quality and convenience!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="vineeth.jpg" alt="">
+                <h3>vineeth</h3>
+                <p>Impressed by the delivery and meticulous packaging. Groco doesn't just deliver groceries; they deliver an exceptional service. The variety of locally sourced items is a game-changer. Highly recommend for a delightful shopping experience!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="satish.jpg" alt="">
+                <h3>satish</h3>
+                <p>From browsing to delivery, Groco has set a new standard. The personalized recommendations made my shopping efficient, and the commitment to sustainability aligns perfectly with my values. A five-star experience all around!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blogs" id="blogs">
+        <h1 class="heading"> our <span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+            <img src="fresh fruits and vegetables1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i>By nithin</a>
+                    <a href="#"> <i class="fas fa-calender"></i>27th july, 2022</a>
+                </div>
+                <h3>fresh and organic vegetables and fruits</h3>
+                <p>Explore the art of seasonal cooking on our blog, where we share mouthwatering recipes featuring the freshest produce from Groco. Join us on a culinary journey, discovering tips, tricks, and the joy of creating delicious meals right in your kitchen.</p>
+                <a href="file:///C:/Users/nnith/Downloads/New%20folder/nithin.html" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="fruits and vegetables.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i>By vineeth</a>
+                    <a href="#"> <i class="fas fa-calender"></i>5th january, 2022</a>
+                </div>
+                <h3>fresh and organic vegetables and fruits</h3>
+                <p>Dive into the heart of sustainability with our latest blog post, uncovering the eco-friendly initiatives at Groco. From highlighting local farmers to reducing our environmental footprint, we're passionate about nourishing not only our customers but also the planet.</p>
+                <a href="file:///C:/Users/nnith/Downloads/New%20folder/nithin.html" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="fresh vegetables.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i>By satish</a>
+                    <a href="#"> <i class="fas fa-calender"></i>28th august, 2022</a>
+                </div>
+                <h3>fresh and organic vegetables and fruits</h3>
+                <p>Discover the stories behind the products you love. Our blog takes you behind the scenes, showcasing the people and processes that make Groco a unique culinary destination. Join us in celebrating the vibrant tapestry of flavors and the communities that bring them to your table.</p>
+                <a href="file:///C:/Users/nnith/Downloads/New%20folder/nithin.html" class="btn">read more</a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>groco <i class="fas fa-shopping-basket"></i></h3>
+                <p> follow us on</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="https://twitter.com/NNITHINRED6145" class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/_n_i_t_h_i_n_2774/" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>contact-info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +91 8555004633</a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +91 7207257125</a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> eng22cs0376@dsu.edu.in</a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Bengaluru,india-560063</a>
+            </div>
+        </div>
+    </section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script1.js"></script>
+</body>
+</html>
